@@ -39,9 +39,10 @@ CloudyData_UVB=FG2011_shielded.h5
 
 
 HM2012_metal_new.h5
-  Info      as CloudyData_UVB=HM2012.h5, plus
-            metal photo rates kphCI, kphOI, kdissCO, kdissOH, kdissH2O added
-            from Leiden cross sections (Heays, Bosman & van Dishoeck 2017)
+  Info      Haardt & Madau (2012, ApJ, 746, 125) [Galaxies & Quasars];
+            Grackle metal UVB extension v0.1 (generated 2026-09-04):
+            kphCI, kphOI, kdissCO, kdissOH, kdissH2O; Leiden cross sections
+            (Heays, Bosman & van Dishoeck 2017); kdissH2O=total
   z grid    59 points, 0 <= z <= 15.13
   datasets  as CloudyData_UVB=HM2012.h5, plus
             /UVBRates/Chemistry: kphCI kphOI kdissCO kdissOH kdissH2O
